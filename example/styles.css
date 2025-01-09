@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+h1 {
+  color: #333;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
