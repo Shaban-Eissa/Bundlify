@@ -43,9 +43,9 @@ A minimal JavaScript bundler that supports static and dynamic imports, code spli
 
 - Bundling: The dependency graph is converted into a single bundled file (bundle.js) using a custom runtime loader.
 
-- CSS Loader (cssLoader.js): Handles .css files by injecting the CSS into the DOM using a <style> tag.
+- CSS Loader (cssLoader.js): Handles .css files by injecting the CSS into the DOM using a ```<style>``` tag.
 
-- File Loader (fileLoader.js): Handles image files (.png, .jpg) by copying them to the /dist directory and returning the correct path.
+- File Loader (fileLoader.js): Handles image files (.png, .jpg) by copying them to the ```/dist``` directory and returning the correct path.
 
 - Plugins: Bundlify supports plugins for extending its functionality. An example plugin (myPlugin.js) is included, which logs messages during the build process.
 
